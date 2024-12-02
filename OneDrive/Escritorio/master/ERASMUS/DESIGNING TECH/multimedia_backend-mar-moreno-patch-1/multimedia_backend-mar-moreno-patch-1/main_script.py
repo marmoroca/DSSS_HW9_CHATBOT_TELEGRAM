@@ -6,8 +6,8 @@ import requests
 app = FastAPI()
 
 # Directories
-IMAGE_DIR = "uploaded_images"
-DOC_DIR = "uploaded_docs"
+IMAGE_DIR = "images"
+DOC_DIR = "docs"
 
 # Create directories
 os.makedirs(IMAGE_DIR, exist_ok=True)
